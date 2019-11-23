@@ -2,6 +2,8 @@ rtpproxy - Support IP handover
 =========
 ---
 
+Read more https://onmyway133.github.io/blog/Support-IP-handover-in-rtpproxy-for-VoIP-applications/
+
 Use "src_cnt" to track the number of consecutive packets from different address. When this number exceeds THRESHOLD (10 for RTP and 2 for RTCP), I switch to this new address
 
 This way
